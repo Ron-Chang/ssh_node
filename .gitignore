@@ -1,0 +1,25 @@
+# System
+.DS_Store
+
+# Python
+.vscode
+.idea
+.pytest_cache/
+__pycache__/
+venv/
+.venv/
+pyvenv.cfg
+
+# Env
+.env*
+!.env.example
+
+# App Chore
+db/
+**/.ssh/*
+**/info
+**/logs
+migrations/
+**/tmp.*
+**/tmp
+**/*.tmp
